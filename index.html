@@ -6,31 +6,80 @@
     <style>
 /* <@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 * {
-    background-color: #1A1A1D;
-    color: #C4D3DF;
-    font-family: Ubuntu Mono;
+    background-color: #6D6875;
+    color: #FFCDB2;
+    font-family: Orbitron;
+    text-shadow: 2px 2px #9b6d76;
 }
 body {
     display: grid;
 }
-pre {
+
+.lumi{
+    position: fixed;
+    left: 20rem;
+    top: 5rem;
+    padding: 10px;
+
+    background-color: #B5838D;
+    box-shadow: 7px 7px #55515c;
+    font-size: 6rem;
+}
+.lumi p{
+    font-size: 1rem;
+    background-color: #B5838D;
+    margin: 0;
+}
+.ascii{
+    position: fixed;
+    left: 15rem;
+    top: 21rem;
+    padding: 10px;
+
+    background-color: #B5838D;
+    box-shadow: 7px 7px #55515c;
+    font-family: Ubuntu Mono;
+}
+.links {
+    position: fixed;
+    left: 43rem;
+    top: 10rem;
+    padding: 10px;
+
+    width: 30rem;
+    height: 20rem;
+
+    background-color: #B5838D;
+    box-shadow: 7px 7px #55515c;
+}
+
+/*pre {
     margin-top: 10rem;
     margin-left: 20%;
     font-size: 1rem;
-}
+    background-color: #B5838D;
+    box-shadow: 5px 5px #55515c;
+}*/
 a {
-    margin-top: -1rem;
-    margin-left: 20%;
     font-size: 0.7rem;
+    background-color: #B5838D;
     /*color: #8CB9DE;*/
 }
+
+
     </style>
 
 </head>
     <body>
+<div class="lumi">
+    lumi
+    <p>るみ | Луми | 루미 | لومي | 卢米</p>
+</div>
+
 <!-- asciiart.eu - Rain by Lukasz Tyrala -->
-        <pre>
+    <pre class="ascii">
       |       |        |       | |
  ' |   |   |     '  |      '
               |           |     |
@@ -55,7 +104,12 @@ a {
  ' |   '.____,'  \_||_/   |    |
          |/\|    [_][_]      |
 """"""""""""""""""""""""""""""""""
-        </pre>
-<a href="https://flowerlumi.github.io/LumiPublic.gpg">[gpg/pgp]</a>
+    </pre>
+
+<div class="links">
+    <a href="https://flowerlumi.github.io/LumiPublic.gpg">[gpg]</a><br>
+    <a href="https://www.youtube.com/@m3owlumi">[yt]</a><br>
+    <a href="https://namemc.com/profile/rainylumi.1">[mc]</a><br>
+</div>
     </body>
 </html>
