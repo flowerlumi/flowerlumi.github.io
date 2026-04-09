@@ -4,141 +4,78 @@
     <title>Lumi</title>
 
     <style>
-/* <@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/*https://colorhunt.co/palette/3936464f45576d5d6ef4eee0*/
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+:root {
+    --bg1: #393646;
+    --bg2: #4F4557;
+    --bg3: #6D5D6E;
+    --text: #F4EEE0;
+}
 * {
-    background-color: #ffffff;
-    color: #808080;
-    font-family: SN Pro;
-    /*text-shadow: 1.5px 1.5px #9b6d76;*/
+    font-size: 0.85rem;
+    color: var(--text);
 }
 body {
-    width: 50%;
-    position: fixed;
-    left: 60%;
-    transform: translate(-50%, -50%);
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
-/*https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373*/
-.lumi{
-    position: fixed;
-    left: 5rem;
-    top: 4rem;
-    padding: 10px;
-    
-    text-align: center;
-
-    background-color: #e7e7e7;
-    box-shadow: 7px 7px #c8c8c8;
-    font-size: 6rem;
+    background-color: var(--bg1);
 }
-.lumi p{
-    font-size: 1rem;
-    background-color: #e7e7e7;
-    margin: 0;
+.window {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg2);
+    border: 2px solid var(--bg3);
+    box-shadow: 4px 4px #312f3c;
+    width: 100%;
+    max-width: 640px;
 }
-.ascii{
-    position: fixed;
-    left: 5rem;
-    top: 16rem;
-    padding: 10px;
-
-    background-color: #e7e7e7;
-    box-shadow: 7px 7px #c8c8c8;
-    font-family: Ubuntu Mono;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--bg3);
+    width: 100%;
 }
-.links {
-    position: fixed;
-    left: 22rem;
-    top: 9rem;
-    padding: 10px;
-
-    /*width: 30rem;
-    height: 20rem;*/
-
-    background-color: #e7e7e7;
-    box-shadow: 7px 7px #c8c8c8;
+.title {
+    padding: 0px 10px;
+    font-family: Niconne;
+    font-size: 1.5rem;
 }
-.hi {
-    position: fixed;
-    left: 22rem;
-    top: 3rem;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    background-color: #e7e7e7;
-    box-shadow: 7px 7px #c8c8c8;
+.stängsak {
+    padding: 0px 10px;
+    font-size: 1.3rem;
 }
-
-/*pre {
-    margin-top: 10rem;
-    margin-left: 20%;
-    font-size: 1rem;
-    background-color: #B5838D;
-    box-shadow: 5px 5px #55515c;
-}*/
-a {
-    font-size: 0.7rem;
-    background-color: #e7e7e7;
-    /*color: #8CB9DE;*/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
 }
-img {
-    width: 2rem;
-    background-color: #e7e7e7;
-    margin: 2px;
-}
-
 
     </style>
 
 </head>
     <body>
-        <h1 style="font-size: 10rem; position: fixed; color: #000000;"> wip i'm fixng hthingss</h1>
-        <p style="font-size: 2rem; position: fixed; color: #00ffff; left: 20rem;  z-index: 100;"> help why's it hiding</p>
-<div class="lumi">
-    lumi
-    <p>るみ | Луми | 루미 | لومي | 卢米</p>
-</div>
 
-<!-- asciiart.eu - Rain by Lukasz Tyrala -->
-    <pre class="ascii">
-      |       |        |       | |
- ' |   |   |     '  |      '
-              |           |     |
- '     |  _,..--I--..,_ |
-   / _.-`` _,-`   `-,_ ``-._ \ lt.
-     `-,_,_,.,_   _,.,_._,-`
-|  | '   '     `Y` __ '     '
-  '|        ,-. I /  \       |  |
- |    |    /   )I \  /     '   |
-'  '      /   / I_.""._
-|  |    ,l  .'..`      `.   ' |  |
- |     / | /   \        l
-      /, '"  .  \      ||   |   |
- |  ' ||      |"|      ||   |
-'     ||      | |      ||       |
-|     \|      | '.____,'/  |  |
-   |   |      |  |    |F   '    |
- | '   |      |  | |\ |     ' |
-       |      |  | || |      |
-|  |   |      |  | || |    |    |
-       |      |  | || |      |
- ' |   '.____,'  \_||_/   |    |
-         |/\|    [_][_]      |
-""""""""""""""""""""""""""""""""""
-    </pre>
-
-<div class="links">
-    <a href="https://flowerlumi.github.io/LumiPublic.gpg.txt"><img src="./gpg.png"/></a>
-    <a href="https://www.songsterr.com/user/lumi10"><img src="./guitar.png"/></a><br>
-    <a href="https://steamcommunity.com/id/nattuggla-/"><img style="width: 1.9rem" src="./steam.png"/></a>
-    <a href="https://www.last.fm/user/lumiintherain"><img src="./lastfm.png"/></a>
-</div>
-
-<div class="hi">
-    <p style="background-color: #e7e7e7;" >omg det här<br> är så dåligt</p>
-</div>
+        <div class="window">
+            <header class="header">
+                <div class="title">lumi</div>
+                <div class="stängsak">- &ensp;⤢ &ensp;×</div>
+            </header>
+            
+            <div class="content">wip
+                <div style="word-spacing: 20px;">
+                    <a href="https://flowerlumi.github.io/LumiPublic.gpg.txt">[gpg]</a>
+                    <a href="https://www.songsterr.com/user/lumi10">[songsterr]</a>
+                    <a href="https://steamcommunity.com/id/nattuggla-/">[steam]</a>
+                    <a href="https://www.last.fm/user/lumiintherain">[last.fm]</a> 
+                </div>
+            </div>
+        </div>    
+    
     </body>
 </html>
